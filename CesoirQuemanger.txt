@@ -1,0 +1,70 @@
+Privacy Policy
+
+Last updated: June 2, 2026
+
+This Privacy Policy explains how CesoirQuemanger / Ce soir: Que manger ? handles information when you use our mobile application.
+
+1. Information We Collect
+
+CesoirQuemanger does not require users to create an account.
+
+We do not directly collect personal information such as your name, email address, phone number, address, or payment information.
+
+The app may store simple app-related data locally on your device, such as preferences, meal choices, or app settings, only to provide the app’s basic features.
+
+2. Advertising
+
+This app may display advertisements provided by third-party advertising services, including Google AdMob.
+
+These third-party services may collect and process certain information, such as device identifiers, advertising identifiers, app interaction data, approximate location, crash data, and diagnostic information, in order to provide, measure, and improve ads.
+
+For more information about how Google uses data, please refer to Google’s privacy and advertising policies.
+
+3. How We Use Information
+
+Information handled by the app is used only for the following purposes:
+
+To provide the app’s meal suggestion and app functionality
+To save basic preferences locally on the user’s device
+To display advertisements
+To improve app stability and user experience
+To comply with legal and platform requirements
+4. Data Sharing
+
+We do not sell users’ personal information.
+
+We may share limited data with third-party service providers only when necessary to operate the app, such as advertising, analytics, crash reporting, or platform services.
+
+These third-party services are responsible for handling data according to their own privacy policies.
+
+5. Data Storage and Security
+
+CesoirQuemanger does not operate its own user account database.
+
+Any local data stored by the app remains on the user’s device unless handled by third-party services such as advertising or analytics providers.
+
+We take reasonable measures to protect information handled by the app, but no method of electronic storage or transmission is completely secure.
+
+6. Children’s Privacy
+
+This app is not specifically directed to children under the age of 13.
+
+We do not knowingly collect personal information from children. If you believe that a child has provided personal information through this app, please contact us so that we can take appropriate action.
+
+7. User Choices
+
+Users can control or reset their advertising ID through their device settings.
+
+Users may also delete the app at any time to remove locally stored app data from their device.
+
+8. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time.
+
+When we update this policy, we will revise the “Last updated” date at the top of this page.
+
+9. Contact Us
+
+If you have any questions about this Privacy Policy, please contact us at:
+
+Email: berrystreetjp@gmail.com
