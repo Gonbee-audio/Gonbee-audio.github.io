@@ -1,115 +1,406 @@
-<section class="policy-section">
-  <div class="section-heading">
-    <div class="section-number">4</div>
-    <h2>Data Retention</h2>
-  </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Privacy Policy for 1 Minute Workout Daily" />
+  <title>Privacy Policy | 1 Minute Workout Daily</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #2563eb;
+      --primary-soft: #eff6ff;
+      --border: #e5e7eb;
+      --notice: #fff7ed;
+      --notice-border: #fdba74;
+    }
 
-  <p>
-    The App does not require users to create an account and does not
-    directly store personal information or workout records on servers
-    operated by the App developer.
-  </p>
+    * {
+      box-sizing: border-box;
+    }
 
-  <p>
-    Information stored locally on the user’s device remains on the device
-    until the user deletes the information, clears the App’s data, or
-    uninstalls the App.
-  </p>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--bg);
+    }
 
-  <p>
-    Limited technical information, such as device information, usage data,
-    crash logs, and advertising-related information, may be processed by
-    third-party service providers used by the App.
-  </p>
+    .container {
+      width: min(920px, calc(100% - 32px));
+      margin: 48px auto;
+    }
 
-  <p>
-    Such information is retained only for as long as reasonably necessary
-    to provide advertisements, measure advertising performance, analyze
-    technical issues, improve the App, comply with legal obligations, and
-    prevent fraud or misuse.
-  </p>
+    .hero,
+    .policy-section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
+    }
 
-  <p>
-    The specific retention periods for information processed by third-party
-    service providers are determined by those providers in accordance with
-    their respective privacy policies and legal obligations.
-  </p>
+    .hero {
+      padding: 40px;
+      margin-bottom: 24px;
+    }
 
-  <div class="notice">
-    Uninstalling the App will remove data stored locally by the App from
-    the device. However, uninstalling the App may not automatically delete
-    information previously processed by third-party service providers.
-  </div>
-</section>
+    .hero h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.2;
+    }
 
-<section class="policy-section">
-  <div class="section-heading">
-    <div class="section-number">5</div>
-    <h2>Data Deletion Requests</h2>
-  </div>
+    .hero p {
+      margin: 8px 0 0;
+      color: var(--muted);
+    }
 
-  <p>
-    Users may request the deletion of personal information associated with
-    their use of the App by contacting us at:
-  </p>
+    .policy-section {
+      padding: 32px;
+      margin-bottom: 20px;
+    }
 
-  <div class="contact-box">
-    <strong>Data Deletion Request</strong>
+    .section-heading {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 20px;
+    }
 
-```
-<span>Email: gonbee1230@gmail.com</span>
+    .section-number {
+      display: grid;
+      place-items: center;
+      width: 38px;
+      height: 38px;
+      flex: 0 0 38px;
+      border-radius: 50%;
+      background: var(--primary);
+      color: #fff;
+      font-weight: 700;
+    }
 
-<br />
+    h2 {
+      margin: 0;
+      font-size: 1.45rem;
+    }
 
-<a
-  class="email-button"
-  href="mailto:gonbee1230@gmail.com?subject=One%20Minute%20Workout%20Data%20Deletion%20Request"
->
-  Request Data Deletion
-</a>
-```
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+      font-size: 1.08rem;
+    }
 
-  </div>
+    p {
+      margin: 0 0 16px;
+    }
 
-  <p>
-    When submitting a deletion request, please include the following
-    information:
-  </p>
+    ul {
+      margin: 0 0 16px;
+      padding-left: 24px;
+    }
 
-  <ul>
-    <li>The name of the App: <strong>One Minute Workout</strong>.</li>
-    <li>A statement that you are requesting deletion of your data.</li>
-    <li>
-      Any information reasonably necessary to identify the relevant data,
-      such as your device type, approximate date of use, or support
-      correspondence.
-    </li>
-  </ul>
+    li + li {
+      margin-top: 8px;
+    }
 
-  <p>
-    We will review and respond to valid deletion requests within a
-    reasonable period. We may request additional information when necessary
-    to verify the request and identify the relevant data.
-  </p>
+    a {
+      color: var(--primary);
+    }
 
-  <p>
-    Because the App does not require a user account and does not directly
-    maintain a database of personal user profiles, we may not be able to
-    identify or delete data that cannot reasonably be linked to a specific
-    user.
-  </p>
+    .notice {
+      margin-top: 18px;
+      padding: 16px 18px;
+      border-left: 4px solid var(--notice-border);
+      border-radius: 10px;
+      background: var(--notice);
+    }
 
-  <p>
-    Information processed independently by third-party service providers,
-    including Google AdMob, may be subject to the provider’s own deletion,
-    retention, and privacy controls. Users may also manage advertising and
-    privacy settings through their device settings and Google account
-    settings.
-  </p>
+    .contact-box {
+      margin: 18px 0;
+      padding: 20px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: var(--primary-soft);
+    }
 
-  <p>
-    Certain information may be retained when required by law, necessary to
-    protect legal rights, resolve disputes, prevent fraud, or comply with
-    regulatory obligations.
-  </p>
-</section>
+    .contact-box strong,
+    .contact-box span {
+      display: block;
+    }
+
+    .email-button {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 11px 18px;
+      border-radius: 10px;
+      background: var(--primary);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    footer {
+      padding: 8px 4px 30px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        width: min(100% - 20px, 920px);
+        margin: 20px auto;
+      }
+
+      .hero,
+      .policy-section {
+        padding: 24px 20px;
+        border-radius: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <h1>Privacy Policy</h1>
+      <p><strong>App:</strong> 1 Minute Workout Daily</p>
+      <p><strong>Last updated:</strong> July 29, 2026</p>
+    </header>
+
+    <section class="policy-section">
+      <div class="section-heading">
+        <div class="section-number">1</div>
+        <h2>Introduction</h2>
+      </div>
+
+      <p>
+        This Privacy Policy explains how 1 Minute Workout Daily
+        (the “App”) handles information when you use the App.
+      </p>
+
+      <p>
+        The App is designed to provide simple workout guidance and does not
+        require users to create an account.
+      </p>
+    </section>
+
+    <section class="policy-section">
+      <div class="section-heading">
+        <div class="section-number">2</div>
+        <h2>Information We Handle</h2>
+      </div>
+
+      <h3>Information stored on your device</h3>
+      <p>
+        Workout-related settings or records may be stored locally on your
+        device. The App developer does not directly receive or store this
+        locally saved information on an external server.
+      </p>
+
+      <h3>Information processed by third-party services</h3>
+      <p>
+        The App uses third-party advertising services, including Google
+        AdMob. These services may automatically process limited technical
+        information, such as:
+      </p>
+
+      <ul>
+        <li>Device and operating system information</li>
+        <li>Advertising identifiers</li>
+        <li>IP address and approximate location derived from it</li>
+        <li>App interactions and advertising performance data</li>
+        <li>Diagnostic information, such as crash or error data</li>
+      </ul>
+
+      <p>
+        The handling of information by Google is governed by Google’s own
+        privacy policies and controls.
+      </p>
+    </section>
+
+    <section class="policy-section">
+      <div class="section-heading">
+        <div class="section-number">3</div>
+        <h2>How Information Is Used</h2>
+      </div>
+
+      <p>Information may be used for the following purposes:</p>
+
+      <ul>
+        <li>To provide and maintain the App</li>
+        <li>To display and measure advertisements</li>
+        <li>To diagnose technical issues and improve performance</li>
+        <li>To protect the App against fraud, misuse, or security threats</li>
+        <li>To comply with applicable legal obligations</li>
+      </ul>
+
+      <p>
+        The App developer does not sell personal information directly
+        collected from users.
+      </p>
+    </section>
+
+    <section class="policy-section">
+      <div class="section-heading">
+        <div class="section-number">4</div>
+        <h2>Data Retention</h2>
+      </div>
+
+      <p>
+        The App does not require users to create an account and does not
+        directly store personal information or workout records on servers
+        operated by the App developer.
+      </p>
+
+      <p>
+        Information stored locally on the user’s device remains on the device
+        until the user deletes the information, clears the App’s data, or
+        uninstalls the App.
+      </p>
+
+      <p>
+        Limited technical information, such as device information, usage data,
+        crash logs, and advertising-related information, may be processed by
+        third-party service providers used by the App.
+      </p>
+
+      <p>
+        Such information is retained only for as long as reasonably necessary
+        to provide advertisements, measure advertising performance, analyze
+        technical issues, improve the App, comply with legal obligations, and
+        prevent fraud or misuse.
+      </p>
+
+      <p>
+        The specific retention periods for information processed by third-party
+        service providers are determined by those providers in accordance with
+        their respective privacy policies and legal obligations.
+      </p>
+
+      <div class="notice">
+        Uninstalling the App will remove data stored locally by the App from
+        the device. However, uninstalling the App may not automatically delete
+        information previously processed by third-party service providers.
+      </div>
+    </section>
+
+    <section class="policy-section">
+      <div class="section-heading">
+        <div class="section-number">5</div>
+        <h2>Data Deletion Requests</h2>
+      </div>
+
+      <p>
+        Users may request the deletion of personal information associated with
+        their use of the App by contacting us at:
+      </p>
+
+      <div class="contact-box">
+        <strong>Data Deletion Request</strong>
+        <span>Email: gonbee1230@gmail.com</span>
+
+        <a
+          class="email-button"
+          href="mailto:gonbee1230@gmail.com?subject=1%20Minute%20Workout%20Daily%20Data%20Deletion%20Request"
+        >
+          Request Data Deletion
+        </a>
+      </div>
+
+      <p>
+        When submitting a deletion request, please include the following
+        information:
+      </p>
+
+      <ul>
+        <li>
+          The name of the App:
+          <strong>1 Minute Workout Daily</strong>.
+        </li>
+        <li>A statement that you are requesting deletion of your data.</li>
+        <li>
+          Any information reasonably necessary to identify the relevant data,
+          such as your device type, approximate date of use, or support
+          correspondence.
+        </li>
+      </ul>
+
+      <p>
+        We will review and respond to valid deletion requests within a
+        reasonable period. We may request additional information when necessary
+        to verify the request and identify the relevant data.
+      </p>
+
+      <p>
+        Because the App does not require a user account and does not directly
+        maintain a database of personal user profiles, we may not be able to
+        identify or delete data that cannot reasonably be linked to a specific
+        user.
+      </p>
+
+      <p>
+        Information processed independently by third-party service providers,
+        including Google AdMob, may be subject to the provider’s own deletion,
+        retention, and privacy controls. Users may also manage advertising and
+        privacy settings through their device settings and Google account
+        settings.
+      </p>
+
+      <p>
+        Certain information may be retained when required by law, necessary to
+        protect legal rights, resolve disputes, prevent fraud, or comply with
+        regulatory obligations.
+      </p>
+    </section>
+
+    <section class="policy-section">
+      <div class="section-heading">
+        <div class="section-number">6</div>
+        <h2>Children’s Privacy</h2>
+      </div>
+
+      <p>
+        The App is not specifically directed to children under the age required
+        by applicable law to consent to the processing of personal information.
+        We do not knowingly collect personal information directly from children.
+      </p>
+    </section>
+
+    <section class="policy-section">
+      <div class="section-heading">
+        <div class="section-number">7</div>
+        <h2>Changes to This Privacy Policy</h2>
+      </div>
+
+      <p>
+        This Privacy Policy may be updated when the App, applicable laws, or
+        third-party services change. The updated version will be posted on this
+        page with a revised “Last updated” date.
+      </p>
+    </section>
+
+    <section class="policy-section">
+      <div class="section-heading">
+        <div class="section-number">8</div>
+        <h2>Contact Us</h2>
+      </div>
+
+      <p>
+        For questions about this Privacy Policy, contact:
+        <a href="mailto:gonbee1230@gmail.com">gonbee1230@gmail.com</a>
+      </p>
+    </section>
+
+    <footer>
+      © 2026 1 Minute Workout Daily
+    </footer>
+  </main>
+</body>
+</html>
